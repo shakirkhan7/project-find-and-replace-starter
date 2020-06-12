@@ -7,6 +7,7 @@
 }
 
 * {
+    
     box-sizing: border-box;
 }
 
@@ -14,17 +15,26 @@ fieldset {
     border: 1px dotted gray;
     margin-bottom: var(--base-size);
     font-variant-caps: all-small-caps;
-}
 
+
+}
 fieldset label {
     font-variant-caps: normal;
+    color:darkgreen;
+    font-family: serif;
 }
 
 input {
     margin-bottom: calc(var(--base-size) / 2);
+    
+    
 }
 
 button {
+    color: darkred;
+    background-color: honeydew;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -44,6 +54,7 @@ button {
 
 .row {
     display: flex;
+    
 }
 
 .cell {
@@ -65,3 +76,5 @@ button {
 .row .cell:hover {
     background: lightsteelblue;
 }
+
+
